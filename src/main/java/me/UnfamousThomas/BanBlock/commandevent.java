@@ -9,7 +9,7 @@ public class commandevent implements Listener {
     @EventHandler
     public void oncommand(PlayerCommandPreprocessEvent e) {
         if(e.getMessage().equals("/ban")) {
-            if (e.getPlayer().getName().equals("Medhi")) {
+            if (e.getPlayer().getName().equals("Tigrez_")) { //Tigrez_
                e.getPlayer().sendMessage(ChatColor.GREEN + "You are allowed!");
             } else if (e.getPlayer().getName().equals("UnfamousThomas")) {
                 e.getPlayer().sendMessage(ChatColor.GREEN + "You are allowed!");
